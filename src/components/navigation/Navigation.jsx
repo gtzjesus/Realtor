@@ -53,8 +53,8 @@ function Navigation() {
         </Brand>
       </Section>
       <Section>
-        <Menu src="/icons/instagram.png"></Menu>
-        <Menu src="/icons/facebook.png"></Menu>
+        <Menu src="/icons/instagramwhite.png"></Menu>
+        <Menu src="/icons/facebookwhite.png"></Menu>
       </Section>
     </StyledNav>
   );

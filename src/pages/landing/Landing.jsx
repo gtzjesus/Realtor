@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Intro from '../../components/intro/Intro';
 import Navigation from '../../components/navigation/Navigation';
 import NavigationScroll from '../../components/navigation/NavigationScroll';
+import About from '../../components/about/About';
 
 function Landing() {
   // GRAB STATE for navigation scroll
@@ -22,7 +23,7 @@ function Landing() {
     <>
       {!navigation ? <Navigation /> : <NavigationScroll />}
       <Intro />
-
+      <About />
     </>
   );
 }

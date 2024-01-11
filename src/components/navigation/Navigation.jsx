@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const StyledNav = styled.nav`
   position: fixed;
   background: transparent;
-  color: var(--color-black);
+  color: var(--color-white);
   top: 0;
   width: 100vw;
   z-index: var(--z-top);
@@ -39,6 +39,7 @@ const Title = styled.span`
 const Menu = styled.img`
   padding: 0 var(--padding-small) 0 0;
   height: var(--font-small);
+  color: white;
   @media (min-width: 61.25em) {
     padding: 0 var(--padding-medium) 0 0;
   }

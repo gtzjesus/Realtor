@@ -21,8 +21,8 @@ function Landing() {
   return (
     <>
       {!navigation ? <Navigation /> : <NavigationScroll />}
-
       <Intro />
+
     </>
   );
 }

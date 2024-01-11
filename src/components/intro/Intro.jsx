@@ -8,6 +8,9 @@ const StyledIntro = styled.div`
   // COVER THE FULL SCREEN OF EVERY DEVICE
   min-height: 100vh;
   min-width: 100vw;
+
+  // PADDING
+  padding: var(--padding-small);
 `;
 
 const Information = styled.div`
@@ -23,15 +26,15 @@ const Title = styled.span`
   font-size: var(--font-xlarge);
 `;
 const Description = styled.span`
-  font-size: var(--font-small);
+  font-size: var(--font-xsmall);
 `;
 
 function Intro() {
   return (
     <StyledIntro>
       <Information>
-        <Title>Discover a home that complements your lifestyle.</Title>
-        <Description>with assistance from a Millennium realtor.</Description>
+        <Title>Discover a home that fits your lifestyle.</Title>
+        <Description>with expertise from a Millennium realtor.</Description>
       </Information>
     </StyledIntro>
   );

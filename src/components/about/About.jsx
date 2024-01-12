@@ -33,7 +33,7 @@ function About() {
         Get to <br /> know me
       </Title>
       <Caption>
-        <Img src="/images/jesica.png" />
+        <Img src="/images/jesica.jpg" />
         <Description>
           I am committed to helping you navigate real estate with confidence and
           success.

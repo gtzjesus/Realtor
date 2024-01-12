@@ -24,17 +24,24 @@ const Information = styled.div`
 
 const Title = styled.span`
   font-size: var(--font-xlarge);
+  text-transform: uppercase;
 `;
 const Description = styled.span`
   font-size: var(--font-xsmall);
+`;
+
+const Property = styled.span`
+  font-style: italic;
 `;
 
 function Intro() {
   return (
     <StyledIntro>
       <Information>
-        <Title>A home that fits your lifestyle.</Title>
-        <Description>with expertise from a Millennium realtor.</Description>
+        <Title>
+          A <Property>home</Property> that fits your lifestyle.
+        </Title>
+        <Description>guided by a Millennium realtor.</Description>
       </Information>
     </StyledIntro>
   );

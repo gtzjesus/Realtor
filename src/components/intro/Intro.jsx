@@ -33,7 +33,7 @@ function Intro() {
   return (
     <StyledIntro>
       <Information>
-        <Title>Discover a home that fits your lifestyle.</Title>
+        <Title>A home that fits your lifestyle.</Title>
         <Description>with expertise from a Millennium realtor.</Description>
       </Information>
     </StyledIntro>

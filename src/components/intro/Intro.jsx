@@ -8,9 +8,10 @@ const StyledIntro = styled.div`
   // COVER THE FULL SCREEN OF EVERY DEVICE
   min-height: 100vh;
   min-width: 100vw;
+  padding: 50% var(--padding-xxsmall) var(--padding-xxsmall)
+    var(--padding-xxsmall);
 
   // PADDING
-  padding: var(--padding-small);
 `;
 
 const Information = styled.div`
@@ -19,7 +20,8 @@ const Information = styled.div`
   flex-direction: column;
   justify-content: center;
   gap: var(--gap-medium);
-  padding: 50% 0 0 0;
+
+  padding: 50% var(--padding-medium) var(--padding-medium) var(--padding-medium);
 `;
 
 const Title = styled.span`

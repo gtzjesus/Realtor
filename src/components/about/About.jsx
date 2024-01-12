@@ -12,7 +12,6 @@ const Title = styled.span`
 const Caption = styled.div`
   display: flex;
   flex-direction: column;
-  gap: var(--gap-large);
 `;
 
 const Img = styled.img`
@@ -29,7 +28,9 @@ const Description = styled.span`
 function About() {
   return (
     <StyledAbout>
-      <Title>Get to know me</Title>
+      <Title>
+        Get to <br /> know me
+      </Title>
       <Caption>
         <Img src="/images/jesica.png" />
         <Description>

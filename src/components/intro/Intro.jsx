@@ -8,7 +8,7 @@ const StyledIntro = styled.div`
   // COVER THE FULL SCREEN OF EVERY DEVICE
   min-height: 100vh;
   min-width: 100vw;
-  padding: 25% var(--padding-xxsmall) var(--padding-xxsmall)
+  padding: 0 var(--padding-xxsmall) var(--padding-xxsmall)
     var(--padding-xxsmall);
 
   // PADDING

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const StyledIntro = styled.div`
-  background-image: url('backgrounds/millennium.png');
+  background-image: url('backgrounds/millennium.jpg');
   background-size: cover;
   color: var(--color-white);
 

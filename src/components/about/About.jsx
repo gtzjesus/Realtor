@@ -7,6 +7,7 @@ const StyledAbout = styled.div`
 const Title = styled.span`
   font-size: var(--font-large);
   text-transform: uppercase;
+  color: var(--color-blue);
 `;
 
 const Caption = styled.div`

@@ -25,6 +25,7 @@ const Information = styled.div`
 const Title = styled.span`
   font-size: var(--font-xlarge);
   text-transform: uppercase;
+  line-height: 3.5rem;
 `;
 const Description = styled.span`
   font-size: var(--font-xsmall);
